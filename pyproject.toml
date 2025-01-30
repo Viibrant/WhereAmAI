@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "whereamai"
+version = "0.1.0"
+description = "Solution for those times you wake up in random places across the world, without a map, but with enough compute to run an image classifier"
+authors = ["Viibrant <<11376396+Viibrant@users.noreply.github.com>>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+geopy = "^2.4.1"
+pandas = "^2.2.3"
+tqdm = "^4.67.1"
+pathlib = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
